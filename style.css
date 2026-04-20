@@ -158,7 +158,75 @@ textarea {
     top: 0;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(109deg,rgba(10, 12, 16, 0.99) 15%,rgba(10, 12, 16, 0.7) 50%,rgba(10, 12, 16, 0.99) 85%);
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     transition: 0.5s visibility ease-in-out;
     visibility: hidden;
+}
+
+@media screen and (max-width: 800px) {
+    .caixa-mae {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .caixa_um {
+        width: 100%;
+    }
+
+    .logo-mario {
+        height: 142px;
+        margin-left: 52px;
+        align-items: center;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 10px;
+        margin-left: 22px;
+    }
+
+    .header a {
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .header img {
+        height: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    p {
+        color: white;
+        width: 83%;
+        font-size: 21px;
+        display: inline-block;
+        margin-top: 9px;
+        text-align: center;
+        margin-left: 41px;
+    }
+
+    button {
+        margin-left: 80px;
+    }
+
+    .formulario {
+        left: -312px;
+    }
+
+    .mario-luigi {
+        height: 319px;
+        margin-left: 15px;
+    }
+
+    .link-whatsapp img {
+        height: 42px;
+        position: fixed;
+        right: 9px;
+        bottom: 12px;
+    }
 }
